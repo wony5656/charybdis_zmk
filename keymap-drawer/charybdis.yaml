@@ -514,7 +514,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   SCROLL:
-  - {t: ▽, type: trans}
+  - '&bl BL_TOG'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
