@@ -56,7 +56,7 @@ layers:
   - ENTER
   - R CLK
   - L CLK
-  - NAV-FUN
+  - ''
   NUMBERS:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
