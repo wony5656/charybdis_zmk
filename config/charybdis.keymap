@@ -2,6 +2,7 @@
 #include <dt-bindings/zmk/mouse.h>
 #include <behaviors/mouse_keys.dtsi>
 #include <behaviors.dtsi>
+#include <dt-bindings/zmk/backlight.h>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/ext_power.h>
 #include <dt-bindings/zmk/keys.h>
@@ -295,12 +296,12 @@
 
         scroll_layer {
             bindings = <
-&trans  &trans  &trans          &trans  &trans          &trans    &trans  &trans           &trans  &trans           &trans  &trans
-&trans  &trans  &trans          &trans  &trans          &trans    &trans  &trans           &trans  &trans           &trans  &trans
-&trans  &trans  &trans          &trans  &kp LEFT_SHIFT  &trans    &trans  &kp RIGHT_SHIFT  &trans  &trans           &trans  &trans
-&trans  &trans  &kp LEFT_SHIFT  &trans  &trans          &trans    &trans  &trans           &trans  &kp RIGHT_SHIFT  &trans  &trans
-                                &trans  &trans          &trans    &trans  &trans
-                                        &trans          &trans    &trans
+&bl BL_ON  &trans  &trans          &trans  &trans          &trans    &trans  &trans           &trans  &trans           &trans  &trans
+&trans     &trans  &trans          &trans  &trans          &trans    &trans  &trans           &trans  &trans           &trans  &trans
+&trans     &trans  &trans          &trans  &kp LEFT_SHIFT  &trans    &trans  &kp RIGHT_SHIFT  &trans  &trans           &trans  &trans
+&trans     &trans  &kp LEFT_SHIFT  &trans  &trans          &trans    &trans  &trans           &trans  &kp RIGHT_SHIFT  &trans  &trans
+                                   &trans  &trans          &trans    &trans  &trans
+                                           &trans          &trans    &trans
             >;
 
             label = "SCROLL";
