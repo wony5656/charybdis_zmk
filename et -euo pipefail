@@ -1,0 +1,8 @@
+* [33m3b527bf[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m fix: enable bt left trackball device
+* [33m61d417d[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m Updated charybdis.keymap
+* [33m2bac34f[m fix: switch bt pmw3610 dtsi to pixart,pmw3610-alt
+* [33mbc103b2[m fix: switch dongle pmw3610 dtsi to pixart,pmw3610-alt
+* [33m65374db[m fix: fix missing newline in charybdis-bt right conf
+* [33md9a90e4[m fix: switch charybdis-bt right PMW3610 configs to PMW3610_ALT
+* [33m84303cf[m fix: update charybdis-bt right PMW3610 settings to ALT
+* [33mb8d9f87[m fix: enable PMW3610 ALT driver in charybdis_right.conf

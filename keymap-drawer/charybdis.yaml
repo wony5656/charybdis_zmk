@@ -1,6 +1,6 @@
 layout: {zmk_keyboard: charybdis}
 layers:
-  QUERTZ:
+  QWERTY:
   - ESCAPE
   - '1'
   - '2'
@@ -19,7 +19,7 @@ layers:
   - E
   - R
   - T
-  - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD Y))
+  - Y
   - U
   - I
   - O
@@ -38,7 +38,7 @@ layers:
   - '&hmr RIGHT_CONTROL (ZMK_HID_USAGE(HID_USAGE_KEY, HID_USAGE_KEY_KEYBOARD_SEMICOLON_AND_COLON))'
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD APOSTROPHE AND QUOTE))
   - LEFT SHIFT
-  - '&lt 9 (ZMK_HID_USAGE(HID_USAGE_KEY, HID_USAGE_KEY_KEYBOARD_Z))'
+  - {t: Z, h: SCROLL}
   - X
   - C
   - V
@@ -190,7 +190,7 @@ layers:
   - E
   - R
   - T
-  - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD Y))
+  - Y
   - U
   - I
   - O
@@ -209,7 +209,7 @@ layers:
   - '&hmr RIGHT_CONTROL (ZMK_HID_USAGE(HID_USAGE_KEY, HID_USAGE_KEY_KEYBOARD_SEMICOLON_AND_COLON))'
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD APOSTROPHE AND QUOTE))
   - LEFT SHIFT
-  - '&lt 9 (ZMK_HID_USAGE(HID_USAGE_KEY, HID_USAGE_KEY_KEYBOARD_Z))'
+  - {t: Z, h: SCROLL}
   - X
   - C
   - V
@@ -361,7 +361,7 @@ layers:
   - W
   - E
   - {t: R, h: T}
-  - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD Y))
+  - Y
   - U
   - I
   - O
@@ -551,7 +551,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - LEFT SHIFT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -686,17 +686,17 @@ layers:
   - {t: ▽, type: trans}
 combos:
 - p: [50, 51]
-  k: {t: QUERTZ, h: toggle}
+  k: {t: QWERTY, h: toggle}
   l: [MAC, GAME, FN]
 - p: [50, 51]
   k: {t: MAC, h: toggle}
-  l: [QUERTZ, GAME, FN]
+  l: [QWERTY, GAME, FN]
 - p: [47, 36]
   k: {t: GAME, h: toggle}
-  l: [QUERTZ, MAC, FN]
+  l: [QWERTY, MAC, FN]
 - p: [41, 42]
   k: {t: FN, h: toggle}
-  l: [QUERTZ, MAC, GAME]
+  l: [QWERTY, MAC, GAME]
 - p: [31, 28]
   k: CAPS WORD
 - p: [43, 44]
